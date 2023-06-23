@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio Creator - Form</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio Creator - Form</h1>
+  </header>
+
+  <main>
+    <form onsubmit="submitForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea>
+
+      <label for="experience">Experience:</label>
+      <textarea id="experience" required></textarea>
+
+      <label for="education">Education:</label>
+      <textarea id="education" required></textarea>
+
+      <label for="skills">Skills:</label>
+      <textarea id="skills" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2023 Your Name
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
